@@ -1,0 +1,48 @@
+.gavzagolov{
+    text-align: center;
+    font-size:50px;
+    font-family: Courier;
+    color: #116a64;
+}
+.zagolov{
+    padding-left:50px;
+    font-size:30px;
+    font-family: Courier;
+    color: #18978F;
+}
+.textdiv{
+    padding-left:100px;
+    padding-right:100px;  
+    font-size:20px; 
+    color: #E9DAC1;
+}
+.text{
+    text-indent:50px;
+    text-align: justify;
+    font-style: italic;
+    font-family: Arial;
+    color: #65512f;
+}
+.obolochka{
+    padding-left:120px;
+    font-size:20px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: #54BAB9;
+    background: -moz-radial-gradient(center, ellipse cover, #54BAB9, #F7ECDE);
+    background: -webkit-radial-gradient(center, ellipse cover, #54BAB9, #F7ECDE);
+    background: -o-radial-gradient(center, ellipse cover, #54BAB9, #F7ECDE);
+    background: -ms-radial-gradient(center, ellipse cover, #54BAB9, #F7ECDE);
+}
+a{
+    text-decoration: none;
+    color: #65512f;
+}
+li{
+    list-style-type: none;
+}
+li::before{
+    content: "-";
+    color: #18978F; 
+}
